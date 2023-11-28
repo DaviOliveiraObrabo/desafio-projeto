@@ -1,9 +1,9 @@
 # Comandos Básicos do Git
 
--git clone, como no nome cria uma duplicata de repositórios na pasta local
--git commit, grava alterações de uma nova versão feita 
--git pull, "puxa" as alterações do repositório local para o remoto (busca e mescla)
--git push, "empurra" as alterações do repositório local para o remoto
+-git clone: como no nome cria uma duplicata de repositórios na pasta local
+-git commit: grava alterações de uma nova versão feita 
+-git pull: "puxa" as alterações do repositório local para o remoto (busca e mescla)
+-git push: "empurra" as alterações do repositório local para o remoto
 -git status: ver os status
 -git log: ver todos os commits
 -git commit --amend -m: serve para mudar o comentário do último commit
@@ -23,12 +23,12 @@
  *git remote add origin <link do repositório remoto>
 
 
--git checkout -b <nome da branch>, para colocar uma nova branch acoplada a branch atual
--git chechout <nome da branch>, muda para a branch escolhida
+-git checkout -b <nome da branch>: para colocar uma nova branch acoplada a branch atual
+-git chechout <nome da branch>: muda para a branch escolhida
 -git branch -v: lista o último commit de cada branch
--echo "#<nome do arquivo>" > <nome do arquivo e o seu tipo"> serve para criar arquivo, tipo touch README.md
--git merge <nome da branch a ser "ajuntada">
--git branch -d <nome da branch> para excluir uma branch
+-echo "#<nome do arquivo>" > <nome do arquivo e o seu tipo">: serve para criar arquivo, tipo touch README.md
+-git merge <nome da branch a ser "ajuntada">: mesclar branches
+-git branch -d <nome da branch>: para excluir uma branch
 -giut fetch: baixa as alterações
 -git diff <branch padrão>/<branch a ser comparada>: mostra comparações entre as branches
 -git merge <branch padrão>/<branch a ser mesclada>: serve para mesclar alterações do repo remoto ao repo local
